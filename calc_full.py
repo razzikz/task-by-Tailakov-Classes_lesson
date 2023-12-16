@@ -41,22 +41,22 @@ while True:
             if choice == 1:
                 num = Calc(0, 0, 0, int(input("radius: ")))
                 print(f'S: {num.circle()}')
-            if choice == 2:
+            elif choice == 2:
                 num = Calc(int(input("a: ")), int(input("b: ")), 0, 0)
                 print(f'S: {num.square()}')
-            if choice == 3:
+            elif choice == 3:
                 num = Calc(int(input("b: ")), 0, int(input("h: ")), 0)
                 print(f'S: {num.triangle()}')
-            if choice == 4:
+            elif choice == 4:
                 num = Calc(int(input("x: ")), int(input("y: ")), 0, 0)
                 print(f'Result: {num.add()}')
-            if choice == 5:
+            elif choice == 5:
                 num = Calc(int(input("x: ")), int(input("y: ")), 0, 0)
                 print(f'Result: {num.minus()}')
-            if choice == 6:
+            elif choice == 6:
                 num = Calc(int(input("x: ")), int(input("y: ")), 0, 0)
                 print(f'Result: {num.multy()}')
-            if choice == 7:
+            elif choice == 7:
                 num = Calc(int(input("x: ")), int(input("y: ")), 0, 0)
                 print(f'Result: {num.division()}')
     except ValueError:
